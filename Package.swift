@@ -8,7 +8,7 @@ let package = Package(
 		.executable(name: "PostgresWireServerExample", targets: ["PostgresWireServerExample"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: Version("0.2.0")),
+		.package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: Version("1.0.0")),
 		.package(url: "https://github.com/IBM-Swift/HeliumLogger.git", from: Version("1.7.1")),
 	],
 	targets: [
