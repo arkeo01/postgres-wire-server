@@ -9,7 +9,7 @@ let package = Package(
 	],
 	dependencies: [
 		.package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: Version("1.0.25")),
-		.package(url: "https://github.com/IBM-Swift/HeliumLogger.git", from: Version("1.7.3")),
+		.package(url: "https://github.com/arkeo01/HeliumLogger.git", from: Version("1.7.3")),
 	],
 	targets: [
 		.target(name: "PostgresWireServer", dependencies: [
